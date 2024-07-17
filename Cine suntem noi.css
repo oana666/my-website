@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+    .hero
+    {
+        width: 100%;
+        min-height: 100vh;
+        background:linear-gradient(to right, #640a19,rgb(89, 8, 17)35%);
+        
+        /*color :rgb(223, 235, 235);*/
+        color: rgb(252, 252, 252);
+        padding: 10px 8%;
+        position:relative;
+    }
+
+   nav{
+ position: fixed;
+ top:0;
+ left:0;
+ width:100%;
+ padding:15px 8%;
+ display:flex;
+ align-items:center;
+ z-index:10;
+   }
+   nav ul{
+    flex:1;
+    text-align:center;
+   }
+   nav ul li{
+    list-style:none;
+    display:inline-block;
+    padding:5px 15px;
+   }
+   nav ul li:hover{
+    background: black ;
+    color:black;
+   }
+   nav a{
+    text-decoration:none;
+    color:#ffff;
+   }
+   .text-box{
+    margin-top:18%;
+    max-width:600 px;
+   }
+   .poveste h1{
+    font-size: 30px;
+   
+   color:#fff;
+    font-weight:500;
+    margin-bottom:10px;
+   }
+   .istoric{
+    color:#040404;
+    text-align:justify;
+    background-color: rgb(124, 111, 111);
+    line-height: 40px;
+   }
+   .echipa p{
+    text-align: justify;
+    font-style: Arial;
+     font-size:16px;
+    color:#fff;
+    
+    margin-top: 50px;
+   margin-right: 40px;
+    
+
+   }
+   .echipa h1{
+    text-align:center;
+    color:aqua;
+    font-size:35px;
+   }
+.poveste p{
+    text-align: justify;
+    font-style: Arial;
+     font-size:16px;
+    color:#fff;
+    
+    margin-top: 50px;
+   margin-right: 40px;
+    text-align: left;
+}
+.poveste img{
+    max-height: 800px;
+    max-width: 800px;
+    margin-left:130px;
+}
+.poveste h2{
+    margin-left:185px;
+}
+
+
+.imagine img{
+    width:20%;
+    margin-top:20px;
+    margin-left:60px;
+
+}
+.imagine p{
+    text-align: left;
+    font-style: Arial;
+     font-size:16px;
+    color:#fff;
+    margin-top:10px;
+   margin-right: 40px;
+   margin-left:60px;
+  
+  
+}
+
+.emisiuni h1{
+    font-size:30px;
+color: #7fc4ed;
+font-style: bold;
+margin-left:440px;
+}
+
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+}
+
+.card .description {
+  padding: 15px;
+  text-align: center;
+color:#040404;
+}

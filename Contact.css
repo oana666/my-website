@@ -1,0 +1,80 @@
+.hero
+{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(to right, #640a19,rgb(89, 8, 17)35%);
+    
+    color :rgb(223, 235, 235);
+    padding: 10px 8%;
+    position:relative;
+}
+
+nav{
+position: fixed;
+top:0;
+left:0;
+width:100%;
+padding:15px 8%;
+display:flex;
+align-items:center;
+z-index:10;
+}
+nav ul{
+flex:1;
+text-align:center;
+}
+nav ul li{
+list-style:none;
+display:inline-block;
+padding:5px 15px;
+}
+nav ul li:hover{
+    background: black ;
+    color:black;
+   }
+nav a{
+text-decoration:none;
+color:#ffff;
+}
+.contacte{
+    margin-top:10%;
+    max-width:600 px;
+   }
+   .contacte h1{
+    font-size: 40px;
+    line-height:40 px;
+    font-weight:300;
+    margin-bottom:10px;
+   }
+   .contacte p1{
+     font-style: normal;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:28 px;
+    margin-top: 50 px;
+
+   }
+.iconite p{
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:28 px;
+    margin-top: 10 px;
+    margin-left: 10 px;
+  
+}
+.iconite 
+{
+    width: 30%;
+    height:30%;
+
+}
+
+.iconite img {
+ 
+    margin-top: 10px;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+}
+.map iframe{
+    width:60%;
+}
